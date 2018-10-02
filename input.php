@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="main.css" />
     <title>Svce-feedback</title>
     <script>
-
+    var v = 0;
     function update(v) {
-      document.getElementById('progress-bar').style.width = v+"%";
-      document.getElementById('progress-bar').innerHTML  = v+"%";
+      document.getElementById('progress-bar').style.width = v + "%";
+      document.getElementById('progress-bar').innerHTML   = v + "%";
     }
 
     </script>
@@ -21,78 +21,91 @@
     <div class="container">
       <form>
         <div class="form-group">
-          <div style="margin-top:10%;">
-            <div class="progress fixed-top"  style="height:50px;">
-              <div class="progress-bar  bg-success" id="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                0
-              </div>
-            </div>
-          </div>
 
-          <div class="jumbotron mx-auto" style="margin-top:5%;">
+          <div class="jumbotron mx-auto" style="margin-top:10%;">
 
             <div class="jumbotron" id="1">
               1) How do teachers manage classes?<br /><br /><br />
 
               <center>
 
-                <div class="custom-control custom-radio custom-control-inline mb-3">
-                  <input type="radio" id="poor1" name="answer1" class="custom-control-input" value="1" onclick="update('10')">
-                  <label class="custom-control-label" for="poor">1</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="q1" id="p1" value="1" onclick="update(10);">
+                  <label class="form-check-label" for="p1">
+                    1
+                  </label>
                 </div>
 
-                <div class="custom-control custom-radio custom-control-inline mb-3">
-                  <input type="radio" id="bad1" name="answer1" class="custom-control-input" value="2" onclick="update('10');">
-                  <label class="custom-control-label" for="bad">2</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="q1" id="b1" value="2" onclick="update(10);">
+                  <label class="form-check-label" for="b1">
+                    2
+                  </label>
                 </div>
 
-                <div class="custom-control custom-radio custom-control-inline mb-3">
-                  <input type="radio" id="fair1" name="answer1" class="custom-control-input" value="3" onclick="update('10');">
-                  <label class="custom-control-label" for="fair">3</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="q1" id="f1" value="3" onclick="update(10);">
+                  <label class="form-check-label" for="f1">
+                    3
+                  </label>
                 </div>
 
-                <div class="custom-control custom-radio custom-control-inline mb-3">
-                  <input type="radio" id="good1" name="answer1" class="custom-control-input" value="4" onclick="update('10');">
-                  <label class="custom-control-label" for="good">4</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="q1" id="g1" value="4" onclick="update(10);">
+                  <label class="form-check-label" for="g1">
+                    4
+                  </label>
                 </div>
 
-                <div class="custom-control custom-radio custom-control-inline mb-3">
-                  <input type="radio" id="verygood1" name="answer1" class="custom-control-input" value="5" onclick="update('10');">
-                  <label class="custom-control-label" for="verygood">5</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="q1" id="vg1" value="5" onclick="update(10);">
+                  <label class="form-check-label" for="vg1">
+                    5
+                  </label>
                 </div>
 
               </center>
 
             </div>
 
-            <div class="jumbotron" id="2">
-              2) How are practical sessions handled?<br /><br /><br />
+            <div class="jumbotron" id="1">
+              2) How do teachers manage classes?<br /><br /><br />
 
               <center>
 
-                <div class="custom-control custom-radio custom-control-inline mb-3">
-                  <input type="radio" id="poor2" name="answer2" class="custom-control-input" value="1" onclick="update('20')">
-                  <label class="custom-control-label" for="poor">1</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="q2" id="p2" value="1" onclick="update(20);">
+                  <label class="form-check-label" for="p2">
+                    1
+                  </label>
                 </div>
 
-                <div class="custom-control custom-radio custom-control-inline mb-3">
-                  <input type="radio" id="bad2" name="answer2" class="custom-control-input" value="2" onclick="update('20');">
-                  <label class="custom-control-label" for="bad">2</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="q2" id="b2" value="2" onclick="update(20);">
+                  <label class="form-check-label" for="b2">
+                    2
+                  </label>
                 </div>
 
-                <div class="custom-control custom-radio custom-control-inline mb-3">
-                  <input type="radio" id="fair2" name="answer2" class="custom-control-input" value="3" onclick="update('20');">
-                  <label class="custom-control-label" for="fair">3</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="q2" id="f2" value="3" onclick="update(20);">
+                  <label class="form-check-label" for="f2">
+                    3
+                  </label>
                 </div>
 
-                <div class="custom-control custom-radio custom-control-inline mb-3">
-                  <input type="radio"  id="good2" name="answer2" class="custom-control-input" value="4" onclick="update('20');">
-                  <label class="custom-control-label" for="good">4</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="q2" id="g2" value="4" onclick="update(20);">
+                  <label class="form-check-label" for="g2">
+                    4
+                  </label>
                 </div>
 
-                <div class="custom-control custom-radio custom-control-inline mb-3">
-                  <input type="radio" id="verygood2" name="answer2" class="custom-control-input" value="5" onclick="update('20');">
-                  <label class="custom-control-label" for="verygood">5</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="q2" id="vg2" value="5" onclick="update(20);">
+                  <label class="form-check-label" for="vg2">
+                    5
+                  </label>
                 </div>
 
               </center>
