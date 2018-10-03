@@ -16,48 +16,46 @@
     </script>
   </head>
   <body>
-    <?php include('con.php') ?>
-
     <div class="container">
-      <form>
+      <form action="con.php" method="post">
         <div class="form-group">
 
-          <div class="jumbotron mx-auto" style="margin-top:10%;">
+          <div class="jumbotron mx-auto my-auto">
 
-            <div class="jumbotron" id="1">
+            <div class="" id="1">
               1) How do teachers manage classes?<br /><br /><br />
 
               <center>
 
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline mx-3">
                   <input class="form-check-input" type="radio" name="q1" id="p1" value="1" onclick="update(10);">
                   <label class="form-check-label" for="p1">
                     1
                   </label>
                 </div>
 
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline mx-3">
                   <input class="form-check-input" type="radio" name="q1" id="b1" value="2" onclick="update(10);">
                   <label class="form-check-label" for="b1">
                     2
                   </label>
                 </div>
 
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline mx-3">
                   <input class="form-check-input" type="radio" name="q1" id="f1" value="3" onclick="update(10);">
                   <label class="form-check-label" for="f1">
                     3
                   </label>
                 </div>
 
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline mx-3">
                   <input class="form-check-input" type="radio" name="q1" id="g1" value="4" onclick="update(10);">
                   <label class="form-check-label" for="g1">
                     4
                   </label>
                 </div>
 
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline mx-3">
                   <input class="form-check-input" type="radio" name="q1" id="vg1" value="5" onclick="update(10);">
                   <label class="form-check-label" for="vg1">
                     5
@@ -66,42 +64,42 @@
 
               </center>
 
-            </div>
+            </div><br /><br /><br />
 
-            <div class="jumbotron" id="1">
-              2) How do teachers manage classes?<br /><br /><br />
+            <div class="" id="2">
+              2) How are practical sessions handled?<br /><br /><br />
 
               <center>
 
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline mx-3">
                   <input class="form-check-input" type="radio" name="q2" id="p2" value="1" onclick="update(20);">
                   <label class="form-check-label" for="p2">
                     1
                   </label>
                 </div>
 
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline mx-3">
                   <input class="form-check-input" type="radio" name="q2" id="b2" value="2" onclick="update(20);">
                   <label class="form-check-label" for="b2">
                     2
                   </label>
                 </div>
 
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline mx-3">
                   <input class="form-check-input" type="radio" name="q2" id="f2" value="3" onclick="update(20);">
                   <label class="form-check-label" for="f2">
                     3
                   </label>
                 </div>
 
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline mx-3">
                   <input class="form-check-input" type="radio" name="q2" id="g2" value="4" onclick="update(20);">
                   <label class="form-check-label" for="g2">
                     4
                   </label>
                 </div>
 
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline mx-3">
                   <input class="form-check-input" type="radio" name="q2" id="vg2" value="5" onclick="update(20);">
                   <label class="form-check-label" for="vg2">
                     5
@@ -110,7 +108,766 @@
 
               </center>
 
-            </div>
+            </div><br /><br /><br />
+
+            <div class="" id="3">
+              3) How far have your faculty encouraged and supported your co-curricular activities?(paper presentation, GDs, etc.,)<br /><br /><br />
+
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q3" id="p3" value="1" onclick="update(30);">
+                  <label class="form-check-label" for="p3">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q3" id="b3" value="2" onclick="update(30);">
+                  <label class="form-check-label" for="b3">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q3" id="f3" value="3" onclick="update(30);">
+                  <label class="form-check-label" for="f3">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q3" id="g3" value="4" onclick="update(30);">
+                  <label class="form-check-label" for="g3">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q3" id="vg3" value="5" onclick="update(30);">
+                  <label class="form-check-label" for="vg3">
+                    5
+                  </label>
+                </div>
+
+              </center>
+
+            </div><br /><br /><br />
+
+            <div class="" id="4">
+              4) How are your department computer facilities?<br /><br /><br />
+
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q4" id="p4" value="1" onclick="update(40);">
+                  <label class="form-check-label" for="p4">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q4" id="b4" value="2" onclick="update(40);">
+                  <label class="form-check-label" for="b4">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q4" id="f4" value="3" onclick="update(40);">
+                  <label class="form-check-label" for="f4">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q4" id="g4" value="4" onclick="update(40);">
+                  <label class="form-check-label" for="g4">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q4" id="vg4" value="5" onclick="update(40);">
+                  <label class="form-check-label" for="vg4">
+                    5
+                  </label>
+                </div>
+
+              </center>
+
+            </div><br /><br /><br />
+
+            <div class="" id="5">
+              5) How far have the following associations helped in improving your technical competence and organizing skills?<br /><br /><br />
+
+              &nbsp; &nbsp; &nbsp; &nbsp;(i)Professional(ISTE, IEE etc.,)<br /><br />
+            <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q5i" id="p5i" value="1" onclick="update(50);">
+                  <label class="form-check-label" for="p5i">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q5i" id="b5i" value="2" onclick="update(50);">
+                  <label class="form-check-label" for="b5i">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q5i" id="f5i" value="3" onclick="update(50);">
+                  <label class="form-check-label" for="f5i">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q5i" id="g5i" value="4" onclick="update(50);">
+                  <label class="form-check-label" for="g5i">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q5i" id="vg5i" value="5" onclick="update(50);">
+                  <label class="form-check-label" for="vg5i">
+                    5
+                  </label>
+                </div>
+
+              </center><br /><br />
+
+              &nbsp; &nbsp; &nbsp; &nbsp; (ii)Extra-curricular(NSS, ROTARACT etc.,)<br /><br />
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q5ii" id="p5ii" value="1" onclick="update(50);">
+                  <label class="form-check-label" for="p5ii">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q5ii" id="b5ii" value="2" onclick="update(50);">
+                  <label class="form-check-label" for="b5ii">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q5ii" id="f5ii" value="3" onclick="update(50);">
+                  <label class="form-check-label" for="f5ii">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q5ii" id="g5ii" value="4" onclick="update(50);">
+                  <label class="form-check-label" for="g5ii">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q5ii" id="vg5ii" value="5" onclick="update(50);">
+                  <label class="form-check-label" for="vg5ii">
+                    5
+                  </label>
+                </div>
+
+              </center>
+            </div><br /><br /><br />
+
+            <div class="" id="6">
+              6) How do you find discipline in the college?<br /><br /><br />
+
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q6" id="p6" value="1" onclick="update(60);">
+                  <label class="form-check-label" for="p6">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q6" id="b6" value="2" onclick="update(60);">
+                  <label class="form-check-label" for="b6">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q6" id="f6" value="3" onclick="update(60);">
+                  <label class="form-check-label" for="f6">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q6" id="g6" value="4" onclick="update(60);">
+                  <label class="form-check-label" for="g6">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q6" id="vg6" value="5" onclick="update(60);">
+                  <label class="form-check-label" for="vg6">
+                    5
+                  </label>
+                </div>
+
+              </center>
+
+            </div><br /><br /><br />
+
+            <div class="" id="7">
+              7) How are the following student service facilities?<br /><br /><br />
+
+              &nbsp; &nbsp; &nbsp; &nbsp; (i) Office personnel<br /><br />
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7i" id="p7i" value="1" onclick="update(70);">
+                  <label class="form-check-label" for="p7i">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7i" id="b7i" value="2" onclick="update(70);">
+                  <label class="form-check-label" for="b7i">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7i" id="f7i" value="3" onclick="update(70);">
+                  <label class="form-check-label" for="f7i">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7i" id="g7i" value="4" onclick="update(70);">
+                  <label class="form-check-label" for="g7i">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7i" id="vg7i" value="5" onclick="update(70);">
+                  <label class="form-check-label" for="vg7i">
+                    5
+                  </label>
+                </div>
+
+              </center><br /><br />
+
+              &nbsp; &nbsp; &nbsp; &nbsp; (ii) Transport services<br /><br />
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7ii" id="p7ii" value="1" onclick="update(70);">
+                  <label class="form-check-label" for="p7ii">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7ii" id="b7ii" value="2" onclick="update(70);">
+                  <label class="form-check-label" for="b7ii">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7ii" id="f7ii" value="3" onclick="update(70);">
+                  <label class="form-check-label" for="f7ii">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7ii" id="g7ii" value="4" onclick="update(70);">
+                  <label class="form-check-label" for="g7ii">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7ii" id="vg7ii" value="5" onclick="update(70);">
+                  <label class="form-check-label" for="vg7ii">
+                    5
+                  </label>
+                </div>
+
+              </center><br /><br />
+
+              &nbsp; &nbsp; &nbsp; &nbsp; (iii) Sport facilities<br /><br />
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7iii" id="p7iii" value="1" onclick="update(70);">
+                  <label class="form-check-label" for="p7iii">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7iii" id="b7iii" value="2" onclick="update(70);">
+                  <label class="form-check-label" for="b7iii">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7iii" id="f7iii" value="3" onclick="update(70);">
+                  <label class="form-check-label" for="f7iii">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7iii" id="g7iii" value="4" onclick="update(70);">
+                  <label class="form-check-label" for="g7iii">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7iii" id="vg7iii" value="5" onclick="update(70);">
+                  <label class="form-check-label" for="vg7iii">
+                    5
+                  </label>
+                </div>
+
+              </center><br /><br />
+
+              &nbsp; &nbsp; &nbsp; &nbsp; (iv) Hostel facilities<br /><br />
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7iv" id="p7iv" value="1" onclick="update(70);">
+                  <label class="form-check-label" for="p7iv">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7iv" id="b7iv" value="2" onclick="update(70);">
+                  <label class="form-check-label" for="b7iv">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7iv" id="f7iv" value="3" onclick="update(70);">
+                  <label class="form-check-label" for="f7iv">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7iv" id="g7iv" value="4" onclick="update(70);">
+                  <label class="form-check-label" for="g7iv">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7iv" id="vg7iv" value="5" onclick="update(70);">
+                  <label class="form-check-label" for="vg7iv">
+                    5
+                  </label>
+                </div>
+
+              </center><br /><br />
+
+              &nbsp; &nbsp; &nbsp; &nbsp; (v) Canteen<br /><br />
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (1) Space<br /><br />
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7v1" id="p7v1" value="1" onclick="update(70);">
+                  <label class="form-check-label" for="p7v1">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7v1" id="b7v1" value="2" onclick="update(70);">
+                  <label class="form-check-label" for="b7v1">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7v1" id="f7v1" value="3" onclick="update(70);">
+                  <label class="form-check-label" for="f7v1">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7v1" id="g7v1" value="4" onclick="update(70);">
+                  <label class="form-check-label" for="g7v1">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7v1" id="vg7v1" value="5" onclick="update(70);">
+                  <label class="form-check-label" for="vg7v1">
+                    5
+                  </label>
+                </div>
+
+              </center><br /><br />
+
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (2) Food<br /><br />
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7v2" id="p7v2" value="1" onclick="update(70);">
+                  <label class="form-check-label" for="p7v2">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7v2" id="b7v2" value="2" onclick="update(70);">
+                  <label class="form-check-label" for="b7v2">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7v2" id="f7v2" value="3" onclick="update(70);">
+                  <label class="form-check-label" for="f7v2">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7v2" id="g7v2" value="4" onclick="update(70);">
+                  <label class="form-check-label" for="g7v2">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7v2" id="vg7v2" value="5" onclick="update(70);">
+                  <label class="form-check-label" for="vg7v2">
+                    5
+                  </label>
+                </div>
+
+              </center><br /><br />
+
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (3) Staff behaviour<br /><br />
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7v3" id="p7v3" value="1" onclick="update(70);">
+                  <label class="form-check-label" for="p7v3">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7v3" id="b7v3" value="2" onclick="update(70);">
+                  <label class="form-check-label" for="b7v3">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7v3" id="f7v3" value="3" onclick="update(70);">
+                  <label class="form-check-label" for="f7v3">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7v3" id="g7v3" value="4" onclick="update(70);">
+                  <label class="form-check-label" for="g7v3">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7v3" id="vg7v3" value="5" onclick="update(70);">
+                  <label class="form-check-label" for="vg7v3">
+                    5
+                  </label>
+                </div>
+
+              </center><br /><br />
+
+              &nbsp; &nbsp; &nbsp; &nbsp; (vi) Library<br /><br />
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (1) Technical books-number and range of titles<br /><br />
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7vi1" id="p7vi1" value="1" onclick="update(70);">
+                  <label class="form-check-label" for="p7vi1">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7vi1" id="b7vi1" value="2" onclick="update(70);">
+                  <label class="form-check-label" for="b7vi1">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7vi1" id="f7vi1" value="3" onclick="update(70);">
+                  <label class="form-check-label" for="f7vi1">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7vi1" id="g7vi1" value="4" onclick="update(70);">
+                  <label class="form-check-label" for="g7vi1">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7vi1" id="vg7vi1" value="5" onclick="update(70);">
+                  <label class="form-check-label" for="vg7vi1">
+                    5
+                  </label>
+                </div>
+
+              </center><br /><br />
+
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (2) General books-number and range of titles<br /><br />
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7vi2" id="p7vi2" value="1" onclick="update(70);">
+                  <label class="form-check-label" for="p7vi2">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7vi2" id="b7vi2" value="2" onclick="update(70);">
+                  <label class="form-check-label" for="b7vi2">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7vi2" id="f7vi2" value="3" onclick="update(70);">
+                  <label class="form-check-label" for="f7vi2">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7vi2" id="g7vi2" value="4" onclick="update(70);">
+                  <label class="form-check-label" for="g7vi2">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7vi2" id="vg7vi2" value="5" onclick="update(70);">
+                  <label class="form-check-label" for="vg7vi2">
+                    5
+                  </label>
+                </div>
+
+              </center><br /><br />
+
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (3) Staff behaviour<br /><br />
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7vi3" id="p7vi3" value="1" onclick="update(70);">
+                  <label class="form-check-label" for="p7vi3">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7vi3" id="b7vi3" value="2" onclick="update(70);">
+                  <label class="form-check-label" for="b7vi3">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7vi3" id="f7vi3" value="3" onclick="update(70);">
+                  <label class="form-check-label" for="f7vi3">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7vi3" id="g7vi3" value="4" onclick="update(70);">
+                  <label class="form-check-label" for="g7vi3">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q7vi3" id="vg7vi3" value="5" onclick="update(70);">
+                  <label class="form-check-label" for="vg7vi3">
+                    5
+                  </label>
+                </div>
+
+              </center>
+
+            </div><br /><br /><br />
+
+            <div class="" id="8">
+              8) How is the general infrastructure of the college?<br /><br /><br />
+
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q8" id="p8" value="1" onclick="update(80);">
+                  <label class="form-check-label" for="p8">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q8" id="b8" value="2" onclick="update(80);">
+                  <label class="form-check-label" for="b8">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q8" id="f8" value="3" onclick="update(80);">
+                  <label class="form-check-label" for="f8">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q8" id="g8" value="4" onclick="update(80);">
+                  <label class="form-check-label" for="g8">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q8" id="vg8" value="5" onclick="update(80);">
+                  <label class="form-check-label" for="vg8">
+                    5
+                  </label>
+                </div>
+
+              </center>
+
+            </div><br /><br /><br />
+
+            <div class="" id="9">
+              9) How good are the placement efforts done by the college?<br /><br /><br />
+
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q9" id="p9" value="1" onclick="update(90);">
+                  <label class="form-check-label" for="p9">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q9" id="b9" value="2" onclick="update(90);">
+                  <label class="form-check-label" for="b9">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q9" id="f9" value="3" onclick="update(90);">
+                  <label class="form-check-label" for="f9">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q9" id="g9" value="4" onclick="update(90);">
+                  <label class="form-check-label" for="g9">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q9" id="vg9" value="5" onclick="update(90);">
+                  <label class="form-check-label" for="vg9">
+                    5
+                  </label>
+                </div>
+
+              </center>
+
+            </div><br /><br /><br />
+
+            <div class="" id="10">
+              10) Will you recommend your college to your siblings/friends?<br /><br /><br />
+
+              <center>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q10" id="p10" value="1" onclick="update(100);">
+                  <label class="form-check-label" for="p10">
+                    1
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q10" id="b10" value="2" onclick="update(100);">
+                  <label class="form-check-label" for="b10">
+                    2
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q10" id="f10" value="3" onclick="update(100);">
+                  <label class="form-check-label" for="f10">
+                    3
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q10" id="g10" value="4" onclick="update(100);">
+                  <label class="form-check-label" for="g10">
+                    4
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline mx-3">
+                  <input class="form-check-input" type="radio" name="q10" id="vg10" value="5" onclick="update(100);">
+                  <label class="form-check-label" for="vg10">
+                    5
+                  </label>
+                </div>
+
+              </center>
+
+            </div><br /><br /><br />
+
+            <center>
+              <button type="submit" class="btn btn-outline-primary">Submit</button>
+            </center>
 
           </div>
         </div>
