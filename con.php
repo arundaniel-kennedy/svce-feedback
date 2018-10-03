@@ -45,7 +45,7 @@
    $q9=$_POST['q9'];
    $q10=$_POST['q10'];
 
-  /* echo $q1."<br />";
+   /*echo $q1."<br />";
    echo $q2."<br />";
    echo $q3."<br />";
    echo $q4."<br />";
@@ -66,11 +66,89 @@
    echo $q9."<br />";
    echo $q10."<br />";*/
 
-   $sql = "INSERT INTO  () VALUES ()";
+   if ($q1==1){
+    $sql = "UPDATE response SET a=a+1 WHERE qno=1";
+    if (mysqli_query($con, $sql)) {
+      echo 'successful 1';
+    } else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($per);
+    }
+  }else if($q1==2){
+    $sql = "UPDATE response SET b=b+1 WHERE qno=1";
+    if (mysqli_query($con, $sql)) {
+      echo 'successful 1';
+    } else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($per);
+    }
+  }else if($q1==3){
+    $sql = "UPDATE response SET c=c+1 WHERE qno=1";
+    if (mysqli_query($con, $sql)) {
+      echo 'successful 1';
+    } else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($per);
+    }
+  }else if($q1==4){
+    $sql = "UPDATE response SET d=d+1 WHERE qno=1";
+    if (mysqli_query($con, $sql)) {
+      echo 'successful 1';
+    } else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($per);
+    }
+  }else if($q1==5){
+    $sql = "UPDATE response SET e=e+1 WHERE qno=1";
+    if (mysqli_query($con, $sql)) {
+      echo 'successful 1';
+    } else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($per);
+    }
+  }
+  else{
 
-   if (mysqli_query($per, $sql)) {
-     echo 'successfull';
- } else {
+  }
+
+  echo "<br />";
+
+  if ($q2==1){
+   $sql = "UPDATE response SET a=a+1 WHERE qno=2";
+   if (mysqli_query($con, $sql)) {
+     echo 'successful 2';
+   } else {
      echo "Error: " . $sql . "<br>" . mysqli_error($per);
+   }
+ }else if($q2==2){
+   $sql = "UPDATE response SET b=b+1 WHERE qno=2";
+   if (mysqli_query($con, $sql)) {
+     echo 'successful 2';
+   } else {
+     echo "Error: " . $sql . "<br>" . mysqli_error($per);
+   }
+ }else if($q2==3){
+   $sql = "UPDATE response SET c=c+1 WHERE qno=2";
+   if (mysqli_query($con, $sql)) {
+     echo 'successful 2';
+   } else {
+     echo "Error: " . $sql . "<br>" . mysqli_error($per);
+   }
+ }else if($q2==4){
+   $sql = "UPDATE response SET d=d+1 WHERE qno=2";
+   if (mysqli_query($con, $sql)) {
+     echo 'successful 2';
+   } else {
+     echo "Error: " . $sql . "<br>" . mysqli_error($per);
+   }
+ }else if($q2==5){
+   $sql = "UPDATE response SET e=e+1 WHERE qno=2";
+   if (mysqli_query($con, $sql)) {
+     echo 'successful 2';
+   } else {
+     echo "Error: " . $sql . "<br>" . mysqli_error($per);
+   }
  }
+ else{
+
+ }
+
+
+
+
 ?>
