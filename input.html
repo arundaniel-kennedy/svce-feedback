@@ -16,13 +16,13 @@
         document.getElementById('progress-bar').style.width = v + "%";
         document.getElementById('progress-bar').innerHTML   = v + "%";
       }
-      else if((x==0)&&((v-x)>10)){
+      else if((x==0)&&((v-x)!=10)){
         v = 10;
         document.getElementById('progress-bar').style.width = v + "%";
         document.getElementById('progress-bar').innerHTML   = v + "%";
       }
       x = v;
-      console.log(x);
+      //console.log(x);
 
     }
 
@@ -33,7 +33,7 @@
 
       <div class="fixed-top" style="background-color:white;">
         <div class="progress " style=" height: 40px;">
-          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" id="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">0%</div>
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" id="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">0%</div>
         </div>
       </div>
 
@@ -48,35 +48,35 @@
               <center>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q1" id="p1" value="1" onclick="update(10);">
+                  <input class="form-check-input" type="radio" name="q1" id="p1" value="1" onclick="update(10);" required>
                   <label class="form-check-label" for="p1">
                     1
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q1" id="b1" value="2" onclick="update(10);">
+                  <input class="form-check-input" type="radio" name="q1" id="b1" value="2" onclick="update(10);" required>
                   <label class="form-check-label" for="b1">
                     2
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q1" id="f1" value="3" onclick="update(10);">
+                  <input class="form-check-input" type="radio" name="q1" id="f1" value="3" onclick="update(10);" required>
                   <label class="form-check-label" for="f1">
                     3
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q1" id="g1" value="4" onclick="update(10);">
+                  <input class="form-check-input" type="radio" name="q1" id="g1" value="4" onclick="update(10);" required>
                   <label class="form-check-label" for="g1">
                     4
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q1" id="vg1" value="5" onclick="update(10);">
+                  <input class="form-check-input" type="radio" name="q1" id="vg1" value="5" onclick="update(10);" required>
                   <label class="form-check-label" for="vg1">
                     5
                   </label>
@@ -92,35 +92,35 @@
               <center>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q2" id="p2" value="1" onclick="update(20);">
+                  <input class="form-check-input" type="radio" name="q2" id="p2" value="1" onclick="update(20);" required>
                   <label class="form-check-label" for="p2">
                     1
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q2" id="b2" value="2" onclick="update(20);">
+                  <input class="form-check-input" type="radio" name="q2" id="b2" value="2" onclick="update(20);" required>
                   <label class="form-check-label" for="b2">
                     2
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q2" id="f2" value="3" onclick="update(20);">
+                  <input class="form-check-input" type="radio" name="q2" id="f2" value="3" onclick="update(20);" required>
                   <label class="form-check-label" for="f2">
                     3
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q2" id="g2" value="4" onclick="update(20);">
+                  <input class="form-check-input" type="radio" name="q2" id="g2" value="4" onclick="update(20);" required>
                   <label class="form-check-label" for="g2">
                     4
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q2" id="vg2" value="5" onclick="update(20);">
+                  <input class="form-check-input" type="radio" name="q2" id="vg2" value="5" onclick="update(20);" required>
                   <label class="form-check-label" for="vg2">
                     5
                   </label>
@@ -136,35 +136,35 @@
               <center>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q3" id="p3" value="1" onclick="update(30);">
+                  <input class="form-check-input" type="radio" name="q3" id="p3" value="1" onclick="update(30);" required>
                   <label class="form-check-label" for="p3">
                     1
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q3" id="b3" value="2" onclick="update(30);">
+                  <input class="form-check-input" type="radio" name="q3" id="b3" value="2" onclick="update(30);" required>
                   <label class="form-check-label" for="b3">
                     2
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q3" id="f3" value="3" onclick="update(30);">
+                  <input class="form-check-input" type="radio" name="q3" id="f3" value="3" onclick="update(30);" required>
                   <label class="form-check-label" for="f3">
                     3
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q3" id="g3" value="4" onclick="update(30);">
+                  <input class="form-check-input" type="radio" name="q3" id="g3" value="4" onclick="update(30);" required>
                   <label class="form-check-label" for="g3">
                     4
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q3" id="vg3" value="5" onclick="update(30);">
+                  <input class="form-check-input" type="radio" name="q3" id="vg3" value="5" onclick="update(30);" required>
                   <label class="form-check-label" for="vg3">
                     5
                   </label>
@@ -180,35 +180,35 @@
               <center>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q4" id="p4" value="1" onclick="update(40);">
+                  <input class="form-check-input" type="radio" name="q4" id="p4" value="1" onclick="update(40);" required>
                   <label class="form-check-label" for="p4">
                     1
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q4" id="b4" value="2" onclick="update(40);">
+                  <input class="form-check-input" type="radio" name="q4" id="b4" value="2" onclick="update(40);" required>
                   <label class="form-check-label" for="b4">
                     2
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q4" id="f4" value="3" onclick="update(40);">
+                  <input class="form-check-input" type="radio" name="q4" id="f4" value="3" onclick="update(40);" required>
                   <label class="form-check-label" for="f4">
                     3
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q4" id="g4" value="4" onclick="update(40);">
+                  <input class="form-check-input" type="radio" name="q4" id="g4" value="4" onclick="update(40);" required>
                   <label class="form-check-label" for="g4">
                     4
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q4" id="vg4" value="5" onclick="update(40);">
+                  <input class="form-check-input" type="radio" name="q4" id="vg4" value="5" onclick="update(40);" required>
                   <label class="form-check-label" for="vg4">
                     5
                   </label>
@@ -225,35 +225,35 @@
             <center>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q5i" id="p5i" value="1" onclick="update(50);">
+                  <input class="form-check-input" type="radio" name="q5i" id="p5i" value="1" onclick="update(50);" required>
                   <label class="form-check-label" for="p5i">
                     1
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q5i" id="b5i" value="2" onclick="update(50);">
+                  <input class="form-check-input" type="radio" name="q5i" id="b5i" value="2" onclick="update(50);" required>
                   <label class="form-check-label" for="b5i">
                     2
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q5i" id="f5i" value="3" onclick="update(50);">
+                  <input class="form-check-input" type="radio" name="q5i" id="f5i" value="3" onclick="update(50);" required>
                   <label class="form-check-label" for="f5i">
                     3
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q5i" id="g5i" value="4" onclick="update(50);">
+                  <input class="form-check-input" type="radio" name="q5i" id="g5i" value="4" onclick="update(50);" required>
                   <label class="form-check-label" for="g5i">
                     4
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q5i" id="vg5i" value="5" onclick="update(50);">
+                  <input class="form-check-input" type="radio" name="q5i" id="vg5i" value="5" onclick="update(50);" required>
                   <label class="form-check-label" for="vg5i">
                     5
                   </label>
@@ -265,35 +265,35 @@
               <center>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q5ii" id="p5ii" value="1" onclick="update(50);">
+                  <input class="form-check-input" type="radio" name="q5ii" id="p5ii" value="1" onclick="update(50);" required>
                   <label class="form-check-label" for="p5ii">
                     1
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q5ii" id="b5ii" value="2" onclick="update(50);">
+                  <input class="form-check-input" type="radio" name="q5ii" id="b5ii" value="2" onclick="update(50);" required>
                   <label class="form-check-label" for="b5ii">
                     2
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q5ii" id="f5ii" value="3" onclick="update(50);">
+                  <input class="form-check-input" type="radio" name="q5ii" id="f5ii" value="3" onclick="update(50);" required>
                   <label class="form-check-label" for="f5ii">
                     3
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q5ii" id="g5ii" value="4" onclick="update(50);">
+                  <input class="form-check-input" type="radio" name="q5ii" id="g5ii" value="4" onclick="update(50);" required>
                   <label class="form-check-label" for="g5ii">
                     4
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q5ii" id="vg5ii" value="5" onclick="update(50);">
+                  <input class="form-check-input" type="radio" name="q5ii" id="vg5ii" value="5" onclick="update(50);" required>
                   <label class="form-check-label" for="vg5ii">
                     5
                   </label>
@@ -308,35 +308,35 @@
               <center>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q6" id="p6" value="1" onclick="update(60);">
+                  <input class="form-check-input" type="radio" name="q6" id="p6" value="1" onclick="update(60);" required>
                   <label class="form-check-label" for="p6">
                     1
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q6" id="b6" value="2" onclick="update(60);">
+                  <input class="form-check-input" type="radio" name="q6" id="b6" value="2" onclick="update(60);" required>
                   <label class="form-check-label" for="b6">
                     2
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q6" id="f6" value="3" onclick="update(60);">
+                  <input class="form-check-input" type="radio" name="q6" id="f6" value="3" onclick="update(60);" required>
                   <label class="form-check-label" for="f6">
                     3
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q6" id="g6" value="4" onclick="update(60);">
+                  <input class="form-check-input" type="radio" name="q6" id="g6" value="4" onclick="update(60);" required>
                   <label class="form-check-label" for="g6">
                     4
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q6" id="vg6" value="5" onclick="update(60);">
+                  <input class="form-check-input" type="radio" name="q6" id="vg6" value="5" onclick="update(60);" required>
                   <label class="form-check-label" for="vg6">
                     5
                   </label>
@@ -353,35 +353,35 @@
               <center>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7i" id="p7i" value="1" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7i" id="p7i" value="1" onclick="update(70);" required>
                   <label class="form-check-label" for="p7i">
                     1
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7i" id="b7i" value="2" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7i" id="b7i" value="2" onclick="update(70);" required>
                   <label class="form-check-label" for="b7i">
                     2
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7i" id="f7i" value="3" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7i" id="f7i" value="3" onclick="update(70);" required>
                   <label class="form-check-label" for="f7i">
                     3
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7i" id="g7i" value="4" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7i" id="g7i" value="4" onclick="update(70);" required>
                   <label class="form-check-label" for="g7i">
                     4
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7i" id="vg7i" value="5" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7i" id="vg7i" value="5" onclick="update(70);" required>
                   <label class="form-check-label" for="vg7i">
                     5
                   </label>
@@ -433,35 +433,35 @@
               <center>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7iii" id="p7iii" value="1" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7iii" id="p7iii" value="1" onclick="update(70);" required>
                   <label class="form-check-label" for="p7iii">
                     1
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7iii" id="b7iii" value="2" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7iii" id="b7iii" value="2" onclick="update(70);" required>
                   <label class="form-check-label" for="b7iii">
                     2
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7iii" id="f7iii" value="3" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7iii" id="f7iii" value="3" onclick="update(70);" required>
                   <label class="form-check-label" for="f7iii">
                     3
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7iii" id="g7iii" value="4" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7iii" id="g7iii" value="4" onclick="update(70);" required>
                   <label class="form-check-label" for="g7iii">
                     4
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7iii" id="vg7iii" value="5" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7iii" id="vg7iii" value="5" onclick="update(70);" required>
                   <label class="form-check-label" for="vg7iii">
                     5
                   </label>
@@ -635,35 +635,35 @@
               <center>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7vi1" id="p7vi1" value="1" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7vi1" id="p7vi1" value="1" onclick="update(70);" required>
                   <label class="form-check-label" for="p7vi1">
                     1
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7vi1" id="b7vi1" value="2" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7vi1" id="b7vi1" value="2" onclick="update(70);" required>
                   <label class="form-check-label" for="b7vi1">
                     2
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7vi1" id="f7vi1" value="3" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7vi1" id="f7vi1" value="3" onclick="update(70);" required>
                   <label class="form-check-label" for="f7vi1">
                     3
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7vi1" id="g7vi1" value="4" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7vi1" id="g7vi1" value="4" onclick="update(70);" required>
                   <label class="form-check-label" for="g7vi1">
                     4
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7vi1" id="vg7vi1" value="5" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7vi1" id="vg7vi1" value="5" onclick="update(70);" required>
                   <label class="form-check-label" for="vg7vi1">
                     5
                   </label>
@@ -675,35 +675,35 @@
               <center>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7vi2" id="p7vi2" value="1" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7vi2" id="p7vi2" value="1" onclick="update(70);" required>
                   <label class="form-check-label" for="p7vi2">
                     1
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7vi2" id="b7vi2" value="2" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7vi2" id="b7vi2" value="2" onclick="update(70);" required>
                   <label class="form-check-label" for="b7vi2">
                     2
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7vi2" id="f7vi2" value="3" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7vi2" id="f7vi2" value="3" onclick="update(70);" required>
                   <label class="form-check-label" for="f7vi2">
                     3
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7vi2" id="g7vi2" value="4" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7vi2" id="g7vi2" value="4" onclick="update(70);" required>
                   <label class="form-check-label" for="g7vi2">
                     4
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7vi2" id="vg7vi2" value="5" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7vi2" id="vg7vi2" value="5" onclick="update(70);" required>
                   <label class="form-check-label" for="vg7vi2">
                     5
                   </label>
@@ -715,35 +715,35 @@
               <center>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7vi3" id="p7vi3" value="1" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7vi3" id="p7vi3" value="1" onclick="update(70);" required>
                   <label class="form-check-label" for="p7vi3">
                     1
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7vi3" id="b7vi3" value="2" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7vi3" id="b7vi3" value="2" onclick="update(70);" required>
                   <label class="form-check-label" for="b7vi3">
                     2
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7vi3" id="f7vi3" value="3" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7vi3" id="f7vi3" value="3" onclick="update(70);" required>
                   <label class="form-check-label" for="f7vi3">
                     3
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7vi3" id="g7vi3" value="4" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7vi3" id="g7vi3" value="4" onclick="update(70);" required>
                   <label class="form-check-label" for="g7vi3">
                     4
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q7vi3" id="vg7vi3" value="5" onclick="update(70);">
+                  <input class="form-check-input" type="radio" name="q7vi3" id="vg7vi3" value="5" onclick="update(70);" required>
                   <label class="form-check-label" for="vg7vi3">
                     5
                   </label>
@@ -759,35 +759,35 @@
               <center>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q8" id="p8" value="1" onclick="update(80);">
+                  <input class="form-check-input" type="radio" name="q8" id="p8" value="1" onclick="update(80);" required>
                   <label class="form-check-label" for="p8">
                     1
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q8" id="b8" value="2" onclick="update(80);">
+                  <input class="form-check-input" type="radio" name="q8" id="b8" value="2" onclick="update(80);" required>
                   <label class="form-check-label" for="b8">
                     2
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q8" id="f8" value="3" onclick="update(80);">
+                  <input class="form-check-input" type="radio" name="q8" id="f8" value="3" onclick="update(80);" required>
                   <label class="form-check-label" for="f8">
                     3
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q8" id="g8" value="4" onclick="update(80);">
+                  <input class="form-check-input" type="radio" name="q8" id="g8" value="4" onclick="update(80);" required>
                   <label class="form-check-label" for="g8">
                     4
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q8" id="vg8" value="5" onclick="update(80);">
+                  <input class="form-check-input" type="radio" name="q8" id="vg8" value="5" onclick="update(80);" required>
                   <label class="form-check-label" for="vg8">
                     5
                   </label>
@@ -803,35 +803,35 @@
               <center>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q9" id="p9" value="1" onclick="update(90);">
+                  <input class="form-check-input" type="radio" name="q9" id="p9" value="1" onclick="update(90);" required>
                   <label class="form-check-label" for="p9">
                     1
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q9" id="b9" value="2" onclick="update(90);">
+                  <input class="form-check-input" type="radio" name="q9" id="b9" value="2" onclick="update(90);" required>
                   <label class="form-check-label" for="b9">
                     2
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q9" id="f9" value="3" onclick="update(90);">
+                  <input class="form-check-input" type="radio" name="q9" id="f9" value="3" onclick="update(90);" required>
                   <label class="form-check-label" for="f9">
                     3
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q9" id="g9" value="4" onclick="update(90);">
+                  <input class="form-check-input" type="radio" name="q9" id="g9" value="4" onclick="update(90);" required>
                   <label class="form-check-label" for="g9">
                     4
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q9" id="vg9" value="5" onclick="update(90);">
+                  <input class="form-check-input" type="radio" name="q9" id="vg9" value="5" onclick="update(90);" required>
                   <label class="form-check-label" for="vg9">
                     5
                   </label>
@@ -847,35 +847,35 @@
               <center>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q10" id="p10" value="1" onclick="update(100);">
+                  <input class="form-check-input" type="radio" name="q10" id="p10" value="1" onclick="update(100);" required>
                   <label class="form-check-label" for="p10">
                     1
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q10" id="b10" value="2" onclick="update(100);">
+                  <input class="form-check-input" type="radio" name="q10" id="b10" value="2" onclick="update(100);" required>
                   <label class="form-check-label" for="b10">
                     2
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q10" id="f10" value="3" onclick="update(100);">
+                  <input class="form-check-input" type="radio" name="q10" id="f10" value="3" onclick="update(100);" required>
                   <label class="form-check-label" for="f10">
                     3
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q10" id="g10" value="4" onclick="update(100);">
+                  <input class="form-check-input" type="radio" name="q10" id="g10" value="4" onclick="update(100);" required>
                   <label class="form-check-label" for="g10">
                     4
                   </label>
                 </div>
 
                 <div class="form-check form-check-inline mx-3">
-                  <input class="form-check-input" type="radio" name="q10" id="vg10" value="5" onclick="update(100);">
+                  <input class="form-check-input" type="radio" name="q10" id="vg10" value="5" onclick="update(100);" required>
                   <label class="form-check-label" for="vg10">
                     5
                   </label>
