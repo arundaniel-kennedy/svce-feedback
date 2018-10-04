@@ -8,16 +8,36 @@
     <title>Svce-feedback</title>
     <script>
     var v = 0;
+    var x = 0;
+
     function update(v) {
-      document.getElementById('progress-bar').style.width = v + "%";
-      document.getElementById('progress-bar').innerHTML   = v + "%";
+
+      if(((v-x)==10)||((v-x)==0)){
+        document.getElementById('progress-bar').style.width = v + "%";
+        document.getElementById('progress-bar').innerHTML   = v + "%";
+      }
+      else if((x==0)&&((v-x)>10)){
+        v = 10;
+        document.getElementById('progress-bar').style.width = v + "%";
+        document.getElementById('progress-bar').innerHTML   = v + "%";
+      }
+      x = v;
+      console.log(x);
+
     }
 
     </script>
   </head>
   <body>
     <div class="container">
-      <form action="con.php" method="post">
+
+      <div class="fixed-top" style="background-color:white;">
+        <div class="progress " style=" height: 40px;">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" id="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">0%</div>
+        </div>
+      </div>
+
+      <form action="post.php" method="post">
         <div class="form-group">
 
           <div class="jumbotron mx-auto my-auto">

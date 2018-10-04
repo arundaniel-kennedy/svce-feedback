@@ -7,3 +7,10 @@
 .jumbotron{
   background-color: transparent !important;
 }
+
+.box{
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-top: 10%;
+  position: sticky;
+}
