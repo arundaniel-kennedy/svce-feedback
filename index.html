@@ -6,31 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="app.css" />
     <script src="app.js"></script>
     <title>SVCE - Feedback</title>
 </head>
 
 <body>
+    <center>
+    <div class="container mt-3">
+      <img src="assets/svce.png" alt="svce-logo"><br><h1>SVCE Feedback Form</h1><br><br>
+      <div class="row">
 
-    <div class="container">
-        <div class="jumbotron text-center" style="margin-top : 11%">
-            <img src="assets/svce.png" alt="svce logo" width="20%" height="20%" />
-            <br /> <br />
-            <form action="input.html" method="post" name="myForm">
-                <center>
-                    <div id="html_element"></div>
-                </center>
-                <br>
-                <center>
-                  <div id="cerr"></div>
-                </center>
-                <br />
-                <button type="submit" value="submit" id="submit" class="btn btn-outline-primary">Submit</button>
-            </form>
-
+        <div class="col-4 pr-1">
+          <a href="input.html">
+            <div class="card hovering">
+              <div class="card-body">
+                <h1>Students</h1><br><br>
+                <span class="btn btn-success">Click here to enter Student Feedback</span>
+              </div>
+            </div>
+          </a>
         </div>
+
+        <div class="col-4">
+          <a href="parent.html">
+            <div class="card hovering">
+              <div class="card-body">
+                <h1>Parent</h1><br><br>
+                <span class="btn btn-success">Click here to enter Parent Feedback</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-4">
+          <a href="alumni.html">
+            <div class="card hovering">
+              <div class="card-body">
+                <h1>Alumni</h1><br><br />
+                <span class="btn btn-success">Click here to enter Alumni Feedback</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
     </div>
+  </center>
     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
