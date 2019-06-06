@@ -860,5 +860,5 @@ else{
 
 }
 
-header("refresh:0 ; url=print.php");
+header("refresh:0 ; url=index.html");
  ?>

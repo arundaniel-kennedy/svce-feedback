@@ -10,16 +10,14 @@
   <body>
 
     <div class="container mt-5" style="padding-left:100px;padding-right:100px;">
-      <a class="btn btn-primary mt-5" href="print3.php">Click here</a><br><br>
+      <a class="btn btn-primary mt-5" href="print.php">click here</a><br><br>
       <table class="table table-bordered table-hover">
-        <thead class="thead-dark">
+        <thead>
           <tr>
             <th scope="col">Qno</th>
-            <th scope="col">a</th>
-            <th scope="col">b</th>
-            <th scope="col">c</th>
-            <th scope="col">d</th>
-            <th scope="col">e</th>
+            <th scope="col">1</th>
+            <th scope="col">2</th>
+            <th scope="col">3</th>
           </tr>
         </thead>
         <tbody>
@@ -46,7 +44,6 @@
 
       </tbody>
     </table>
-
   </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
